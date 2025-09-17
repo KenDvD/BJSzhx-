@@ -1,4 +1,5 @@
 # 个人博客前端
+<img width="679" height="467" alt="image" src="https://github.com/user-attachments/assets/873091b6-8c60-45e3-986c-8af15d28c767" />
 
 一个现代化的静态个人博客网站，采用响应式设计，支持暗色主题。
 
