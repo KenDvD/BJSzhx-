@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">我的博客</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">博客</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">欢迎来到我的个人空间</h1>
+            <p class="hero-subtitle">在这里分享我的思考、学习和创作</p>
+            <a href="#blog" class="cta-button">阅读博客</a>
+        </div>
+        <div class="hero-image">
+            <div class="profile-image"></div>
+        </div>
+    </section>
+
+    <!-- 关于区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>你好！我是一名热爱技术和创作的开发者。我喜欢探索新技术，分享知识，并通过写作来记录我的学习旅程。</p>
+                    <p>在这个博客中，我会分享关于Web开发、编程技巧、学习心得以及生活中的一些思考。</p>
+                    <div class="skills">
+                        <h3>技术栈</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 博客区域 -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">最新文章</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop" alt="博客文章">
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">React Hooks 最佳实践</h3>
+                        <p class="blog-excerpt">分享我在使用React Hooks过程中总结的一些最佳实践和常见陷阱...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年1月15日</span>
+                            <span class="blog-read-time">5分钟阅读</span>
+                        </div>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400&h=250&fit=crop" alt="博客文章">
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">CSS Grid 布局完全指南</h3>
+                        <p class="blog-excerpt">深入学习CSS Grid布局，掌握现代网页布局的强大工具...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年1月10日</span>
+                            <span class="blog-read-time">8分钟阅读</span>
+                        </div>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400&h=250&fit=crop" alt="博客文章">
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Python 数据分析入门</h3>
+                        <p class="blog-excerpt">使用Pandas和NumPy进行数据分析的基础知识和实用技巧...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">2024年1月5日</span>
+                            <span class="blog-read-time">6分钟阅读</span>
+                        </div>
+                        <a href="#" class="read-more">阅读更多</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>如果你有任何问题或想交流想法，欢迎通过以下方式联系我：</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            Twitter
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="mailto:your.email@example.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                            邮箱
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="你的姓名" required>
+                    <input type="email" placeholder="你的邮箱" required>
+                    <textarea placeholder="你的消息" rows="5" required></textarea>
+                    <button type="submit">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 我的个人博客. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
